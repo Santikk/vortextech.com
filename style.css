@@ -1,0 +1,66 @@
+body{
+font-family:Arial,sans-serif;
+margin:0;
+padding:0;
+background:#f5f7fa;
+}
+
+header{
+background:#0b3d91;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+color:white;
+margin-left:15px;
+text-decoration:none;
+}
+
+.hero{
+background:#0b3d91;
+color:white;
+padding:100px 20px;
+text-align:center;
+}
+
+section{
+padding:50px 20px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:15px 0;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+form{
+display:flex;
+flex-direction:column;
+max-width:500px;
+}
+
+input,textarea{
+margin-bottom:10px;
+padding:10px;
+}
+
+button{
+background:#0b3d91;
+color:white;
+border:none;
+padding:12px;
+cursor:pointer;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
